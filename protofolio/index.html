@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a93c119cac.js" crossorigin="anonymous"></script>
+    <title>My protofolio </title>
+</head>
+<body>
+    <!---header------>
+   <div id="header">
+    <div class="container">
+       <nav>
+        <div class="logo">
+            <h1><span>R</span>OBI.</h1>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Protofolio</a></li>
+            <li><a href="">contact</a></li> 
+            <!-- <i class="fa-solid fa-x fas"></i> -->
+        </ul>
+        <!-- <i class="fa-solid fa-bars fas"></i> -->
+       </nav>
+       <div class="header-text">
+        <p>Web developer</p>
+        <h1>Hi,I'm <span id="span">Robi</span> <br> from Bangladesh</h1>
+       </div>
+    </div>
+   </div>
+  <!------about.header finish-->
+
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="robi.png">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am Robi, I have been involved in programming for the past two years. I learned about programming since I was in the fifth grade, and since the fifth grade I have explored a lot of programming and learned a lot about programming. I have learned about many programming languages ​​since class 5 till now. such asC, C++, PYTHON, (HTML, CSS), among these programming languages, I have the most experience in C++ programming language. I have solved more than 100 problems on the world famous problem solving platform Codeforces, of course the problems I have solved in the last six months, I am very happy to solve so many problems even after the stress of school and being sick. Along with problem solving I created a management system with C++, and I created a website, which was a portfolio website(by,HTML,CSS,JS).
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Expariens')">Expariens</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>C++ Expart</span><br>Solving problem with C++</li>
+                        <li><span>Web Development</span><br>web Development</li>
+                        <li><span>Competitive Programming</span><br>Solving problem in Codeforces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Expariens">
+                    <ul>
+                            <li><span >2023 - 20214</span><br>Learning Competitive Programming</li>
+                            <li><span>2022 - 2023</span><br>learnning HTML,CSS</li>
+    
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022</span><br>PSC from CMS comilla.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-------seevices-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+              <h2>Mentor</h2>
+              <p>I teach python language to my frinds,I teach them every side of python</p>
+              <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>Public Speaker</h2>
+                <p> I love to make speech front of peoples</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-----portfolio------->
+<div id="portfoloi">
+    <div class="container">
+        <h1 class="sub-title">My portfoloi</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Then we will display the image, skills, work experience and education details. We will also add the list of services and work portfolio </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Then we will display the image, skills, work experience and education details. We will also add the list of services and work portfolio </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More!</a>
+    </div>
+</div>
+
+
+<!------contact-->
+<div id="contact">
+    <div class="container">
+         <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tahjibulislam7562@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01754683071</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100072008427217"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@TiriTofficial"><i class="fa-brands fa-youtube"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text"name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Massage" rows="6" placeholder="Your massage"></textarea>
+                    <button type="button" class="btn btn2">Submit</button>
+                </form>
+            </div>
+         </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Robi</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+
+</script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzoGk7b1jGMnVzn0VKEUUgREymga96D9aeKjVf25FZNfbiwYyj6Bbdxzy1yXYutODVm/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+//   it's not work
+</script>
+
+
+</body>
+</html>
